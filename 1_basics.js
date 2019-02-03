@@ -82,4 +82,15 @@ console.log('After adding a new element, the array becomes ' + cars.sort());
 	In JavaScript, objects use named indexes.
 */
 
-//
+//array iteration using map
+
+var numbers = [45, 4, 9, 16, 25];
+console.log("After filtering, the array becomes : " + numbers.filter(myFunction));
+
+function myFunction(value, index, array) {
+  return value > 18; // array er protita index e loop chalaye filter korlam >18 gula ke
+}
+
+// Javascript dates
+ var d= new Date("2015-03-25");//creating a date object
+ console.log("The date is " + d);
